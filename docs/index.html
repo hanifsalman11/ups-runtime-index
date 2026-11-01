@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSRuntimeIndex — UPS Battery Backup Runtime, VA-to-Watts & RBC Sizing Calculator (2026)</title>
+  <meta name="description" content="Calculate exact UPS battery backup runtime in minutes, VA-to-Watts Power Factor conversion, and 12V 9Ah RBC replacement battery sizing for APC Smart-UPS, CyberPower PFC Sinewave, Eaton, and Tripp Lite systems.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/ups-runtime-index/">
+  <link rel="alternate" type="application/rss+xml" title="UPSRuntimeIndex RSS Feed" href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-indigo-500 text-white px-2 py-0.5 rounded font-black">UPS</span>RuntimeIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Pure%2BSine%2BWave%2BUPS%2BBattery%2BBackup%2B1500VA%2BAPC%2BCyberPower%2BEaton&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop Pure Sine Wave UPS Systems on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">UPS Battery Backup Runtime, VA-to-Watts & RBC Sizing Database</h1>
+      <p class="text-slate-400 mt-3 text-base sm:text-lg">Select your UPS model or PC/Server wattage below to calculate Peukert battery runtime in minutes, Active-PFC watt ceilings, and replacement 12V 9Ah F2 battery cartridges.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search UPS model or load (e.g. CyberPower CP1500PFCLCD, APC Smart-UPS 1500, Eaton 5PX, 850W Gaming PC, Synology NAS...)" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-indigo-500">
+      </div>
+    </div>
+
+    <div id="upsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-indigo-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-indigo-500 text-white px-2.5 py-0.5 rounded">1,500 VA / 1,000W</span>
+            <span class="text-xs text-slate-400">50% Load: ~32 Min</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-indigo-400 transition">APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 7Ah / 2x 12V 18Ah replacement battery specs for APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-indigo-400">Calculate Runtime & Replacement Battery →</span>
+        </a>
+        <a href="apc-back-ups-pro-bx1500m-1500va900w-compact-tower-runtime-watt-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-indigo-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-indigo-500 text-white px-2.5 py-0.5 rounded">1,500 VA / 900W</span>
+            <span class="text-xs text-slate-400">50% Load: ~18 Min</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-indigo-400 transition">APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah (RBC175) replacement battery specs for APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-indigo-400">Calculate Runtime & Replacement Battery →</span>
+        </a>
+        <a href="cyberpower-cp1500pfclcd-pfc-sinewave-1500va1000w-runtime-watt-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-indigo-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-indigo-500 text-white px-2.5 py-0.5 rounded">1,500 VA / 1,000W</span>
+            <span class="text-xs text-slate-400">50% Load: ~16 Min</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-indigo-400 transition">CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1000W), and 2x 12V 9Ah (24V Series) replacement battery specs for CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-indigo-400">Calculate Runtime & Replacement Battery →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <p>© 2026 UPSRuntimeIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('upsGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

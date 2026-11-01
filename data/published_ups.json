@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ups_name": "CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W",
+    "slug": "cyberpower-cp1500pfclcd-pfc-sinewave-1500va1000w-runtime-watt-calculator",
+    "title": "CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1000W), and 2x 12V 9Ah (24V Series) replacement battery specs for CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W.",
+    "va": 1500,
+    "watts": 1000,
+    "min_50": 16,
+    "date": "2026-11-01"
+  },
+  {
+    "ups_name": "APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower",
+    "slug": "apc-back-ups-pro-bx1500m-1500va900w-compact-tower-runtime-watt-calculator",
+    "title": "APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah (RBC175) replacement battery specs for APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower.",
+    "va": 1500,
+    "watts": 900,
+    "min_50": 18,
+    "date": "2026-11-01"
+  },
+  {
+    "ups_name": "APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U",
+    "slug": "apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator",
+    "title": "APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 7Ah / 2x 12V 18Ah replacement battery specs for APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U.",
+    "va": 1500,
+    "watts": 1000,
+    "min_50": 32,
+    "date": "2026-11-01"
+  }
+]
