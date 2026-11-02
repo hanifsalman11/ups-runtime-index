@@ -4,6 +4,7 @@ import re
 import time
 import urllib.request
 import urllib.parse
+import urllib.error  # [PEDOMAN LANGKAH 1] wajib untuk menangkap HTTPError 429
 from datetime import datetime, timezone
 
 # ==========================================
@@ -214,31 +215,59 @@ def build_deterministic_ups_data(ups_tuple):
         ]
     }
 
+
+# [PEDOMAN LANGKAH 2] Fungsi pencari model otomatis (versi baru + caching + skoring tier)
+_CACHED_MODELS = None
+
 def get_active_gemini_model(api_key):
-    """Mencari model Gemini Flash yang sedang aktif di server Google agar tidak pernah 404 NotFound."""
+    """Mendeteksi model Gemini Flash STABIL terbaru secara otomatis & menyimpannya di cache."""
+    global _CACHED_MODELS
+    if _CACHED_MODELS is not None:
+        return _CACHED_MODELS
+
     list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
     try:
         req = urllib.request.Request(list_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            models = data.get("models", [])
-            # Filter hanya model yang mendukung generateContent
-            valid_flash = []
-            for m in models:
-                name = m.get("name", "")  # contoh: "models/gemini-2.5-flash"
+            scored_models = []
+
+            for m in data.get("models", []):
+                name = m.get("name", "").replace("models/", "")
                 methods = m.get("supportedGenerationMethods", [])
-                if "generateContent" in methods and "flash" in name.lower():
-                    if "8b" not in name.lower() and "image" not in name.lower() and "tts" not in name.lower() and "audio" not in name.lower():
-                        valid_flash.append(name.replace("models/", ""))
-            # Urutkan agar memilih versi terbaru (misal gemini-2.5-flash)
-            if valid_flash:
-                valid_flash.sort(reverse=True)
-                print(f"[GEMINI] Auto-discovered active model: {valid_flash[0]}")
-                return [valid_flash[0]]
+
+                if "generateContent" not in methods or "flash" not in name.lower():
+                    continue
+
+                if any(bad in name.lower() for bad in [
+                    "preview", "exp", "thinking", "image", "tts", "audio", "vision", "8b"
+                ]):
+                    continue
+
+                ver_match = re.search(r"gemini-(\d+(?:\.\d+)?)-flash", name.lower())
+                if ver_match:
+                    ver_num = float(ver_match.group(1))
+                    if name.lower() == f"gemini-{ver_match.group(1)}-flash":
+                        tier_score = 2
+                    elif name.lower() == f"gemini-{ver_match.group(1)}-flash-lite":
+                        tier_score = 1
+                    else:
+                        tier_score = 0
+                    scored_models.append((ver_num, tier_score, name))
+                elif name.lower() == "gemini-flash-latest":
+                    scored_models.append((0.1, 0, name))
+
+            if scored_models:
+                scored_models.sort(key=lambda x: (x[0], x[1]), reverse=True)
+                _CACHED_MODELS = [item[2] for item in scored_models[:2]]
+                print(f"[GEMINI] Future-proof active models locked: {_CACHED_MODELS}")
+                return _CACHED_MODELS
     except Exception as e:
-        print(f"[WARN] Model auto-discovery notice: {e}")
-    # Fallback ke model standar yang aktif saat ini
-    return ["gemini-2.5-flash"]
+        print(f"[WARN] Dynamic model discovery notice: {e}")
+
+    _CACHED_MODELS = ["gemini-flash-latest"]
+    return _CACHED_MODELS
+
 
 def generate_ups_data(ups_tuple):
     if not GEMINI_API_KEY:
@@ -315,32 +344,43 @@ Return ONLY a valid JSON object matching this exact schema:
 }}
 """
 
+    # [PEDOMAN LANGKAH 3] Blok pemanggilan API baru dengan retry 429 + auto model discovery
     for model_id in get_active_gemini_model(GEMINI_API_KEY):
-        try:
-            endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {
-                    "temperature": 0.2,
-                    "responseMimeType": "application/json"
+        for attempt in range(2):
+            try:
+                endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "temperature": 0.2,
+                        "responseMimeType": "application/json"
+                    }
                 }
-            }
-            req = urllib.request.Request(
-                endpoint,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=35) as resp:
-                result = json.loads(resp.read().decode("utf-8"))
-                raw_text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
-                raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
-                raw_text = re.sub(r"\s*```$", "", raw_text)
-                parsed = json.loads(raw_text)
-                if "specs" in parsed and "hardware_bundle" in parsed:
-                    return parsed
-        except Exception as e:
-            print(f"[WARN] Gemini ({model_id}) notice for '{model_name}': {e}")
+                req = urllib.request.Request(
+                    endpoint,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=40) as resp:
+                    result = json.loads(resp.read().decode("utf-8"))
+                    raw_text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
+                    raw_text = re.sub(r"\s*```$", "", raw_text)
+                    parsed = json.loads(raw_text)
+                    if "specs" in parsed and "hardware_bundle" in parsed:
+                        time.sleep(6)
+                        return parsed
+            except urllib.error.HTTPError as he:
+                if he.code == 429:
+                    print(f"[RATE-LIMIT] HTTP 429 on {model_id} (attempt {attempt + 1}). Cooling down 20s...")
+                    time.sleep(20)
+                else:
+                    print(f"[WARN] HTTP {he.code} on {model_id}: {he}")
+                    break
+            except Exception as e:
+                print(f"[WARN] Gemini ({model_id}) notice: {e}")
+                break
 
     return det_fallback
 
@@ -879,7 +919,8 @@ def main():
             if SITE_BASE_URL:
                 new_urls.append(f"{SITE_BASE_URL}/{slug}.html")
             count += 1
-            time.sleep(2)
+            # [PEDOMAN LANGKAH 4] Sleep 15 detik untuk menghindari 429 rate-limit di free tier
+            time.sleep(15)
         except Exception as e:
             print(f"[ERROR] Failed building {u_name}: {e}")
 
