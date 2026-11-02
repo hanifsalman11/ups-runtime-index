@@ -214,6 +214,31 @@ def build_deterministic_ups_data(ups_tuple):
         ]
     }
 
+def get_active_gemini_model(api_key):
+    """Mencari model Gemini Flash yang sedang aktif di server Google agar tidak pernah 404 NotFound."""
+    list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
+    try:
+        req = urllib.request.Request(list_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            models = data.get("models", [])
+            # Filter hanya model yang mendukung generateContent
+            valid_flash = []
+            for m in models:
+                name = m.get("name", "")  # contoh: "models/gemini-2.5-flash"
+                methods = m.get("supportedGenerationMethods", [])
+                if "generateContent" in methods and "flash" in name.lower():
+                    if "8b" not in name.lower() and "image" not in name.lower() and "tts" not in name.lower() and "audio" not in name.lower():
+                        valid_flash.append(name.replace("models/", ""))
+            # Urutkan agar memilih versi terbaru (misal gemini-2.5-flash)
+            if valid_flash:
+                valid_flash.sort(reverse=True)
+                print(f"[GEMINI] Auto-discovered active model: {valid_flash[0]}")
+                return [valid_flash[0]]
+    except Exception as e:
+        print(f"[WARN] Model auto-discovery notice: {e}")
+    # Fallback ke model standar yang aktif saat ini
+    return ["gemini-2.5-flash"]
 
 def generate_ups_data(ups_tuple):
     if not GEMINI_API_KEY:
@@ -290,7 +315,7 @@ Return ONLY a valid JSON object matching this exact schema:
 }}
 """
 
-    for model_id in ["gemini-2.5-flash", "gemini-2.0-flash"]:
+    for model_id in get_active_gemini_model(GEMINI_API_KEY):
         try:
             endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
             payload = {
