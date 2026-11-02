@@ -58,5 +58,35 @@
     "watts": 1800,
     "min_50": 18,
     "date": "2026-11-02"
+  },
+  {
+    "ups_name": "APC Smart-UPS 2200VA SMT2200C / SMT2200RM2U",
+    "slug": "apc-smart-ups-2200va-smt2200c-smt2200rm2u-runtime-watt-calculator",
+    "title": "APC Smart-UPS 2200VA SMT2200C / SMT2200RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 990W / 41 min @ 500W), 0.90 Power Factor watts (1980W), and 8x 12V 5Ah (RBC43/55) replacement battery specs for APC Smart-UPS 2200VA SMT2200C / SMT2200RM2U.",
+    "va": 2200,
+    "watts": 1980,
+    "min_50": 18,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "APC Smart-UPS 3000VA SMT3000RM2U (NEMA L5-30P)",
+    "slug": "apc-smart-ups-3000va-smt3000rm2u-nema-l5-30p-runtime-watt-calculator",
+    "title": "APC Smart-UPS 3000VA SMT3000RM2U (NEMA L5-30P) Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (15 min @ 1350W / 33 min @ 680W), 0.90 Power Factor watts (2700W), and 8x 12V 5.5Ah (RBC43) replacement battery specs for APC Smart-UPS 3000VA SMT3000RM2U (NEMA L5-30P).",
+    "va": 3000,
+    "watts": 2700,
+    "min_50": 15,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "CyberPower OR1500LCDRM1U 1500VA/900W 1U Rackmount",
+    "slug": "cyberpower-or1500lcdrm1u-1500va900w-1u-rackmount-runtime-watt-calculator",
+    "title": "CyberPower OR1500LCDRM1U 1500VA/900W 1U Rackmount Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 4x 6V 9Ah Slim Pack replacement battery specs for CyberPower OR1500LCDRM1U 1500VA/900W 1U Rackmount.",
+    "va": 1500,
+    "watts": 900,
+    "min_50": 18,
+    "date": "2026-11-02"
   }
 ]
