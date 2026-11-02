@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -21,6 +21,24 @@
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html</loc>
     <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/eaton-5px-1500rtn-5px1500rtn-1500va1350w-2u-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/eaton-9px-2000rt-9px2000rt-online-double-conversion-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

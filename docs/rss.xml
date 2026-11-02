@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Eaton 9PX 2000RT (9PX2000RT) Online Double-Conversion Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/eaton-9px-2000rt-9px2000rt-online-double-conversion-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/eaton-9px-2000rt-9px2000rt-online-double-conversion-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (18 min @ 900W / 41 min @ 450W), 0.90 Power Factor watts (1800W), and 4x 12V 9Ah (48V Online) replacement battery specs for Eaton 9PX 2000RT (9PX2000RT) Online Double-Conversion.</description>
+    </item>
+    <item>
+      <title>Eaton 5PX 1500RTN (5PX1500RTN) 1500VA/1350W 2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/eaton-5px-1500rtn-5px1500rtn-1500va1350w-2u-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/eaton-5px-1500rtn-5px1500rtn-1500va1350w-2u-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah ABM Bank replacement battery specs for Eaton 5PX 1500RTN (5PX1500RTN) 1500VA/1350W 2U.</description>
+    </item>
+    <item>
+      <title>CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (21 min @ 750W / 48 min @ 380W), 1.00 Power Factor watts (1500W), and 4x 12V 9Ah (48V Bus) replacement battery specs for CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave.</description>
+    </item>
+    <item>
       <title>APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html</guid>

@@ -28,5 +28,35 @@
     "watts": 1000,
     "min_50": 32,
     "date": "2026-11-01"
+  },
+  {
+    "ups_name": "CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave",
+    "slug": "cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator",
+    "title": "CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (21 min @ 750W / 48 min @ 380W), 1.00 Power Factor watts (1500W), and 4x 12V 9Ah (48V Bus) replacement battery specs for CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave.",
+    "va": 1500,
+    "watts": 1500,
+    "min_50": 21,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "Eaton 5PX 1500RTN (5PX1500RTN) 1500VA/1350W 2U",
+    "slug": "eaton-5px-1500rtn-5px1500rtn-1500va1350w-2u-runtime-watt-calculator",
+    "title": "Eaton 5PX 1500RTN (5PX1500RTN) 1500VA/1350W 2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah ABM Bank replacement battery specs for Eaton 5PX 1500RTN (5PX1500RTN) 1500VA/1350W 2U.",
+    "va": 1500,
+    "watts": 1350,
+    "min_50": 24,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "Eaton 9PX 2000RT (9PX2000RT) Online Double-Conversion",
+    "slug": "eaton-9px-2000rt-9px2000rt-online-double-conversion-runtime-watt-calculator",
+    "title": "Eaton 9PX 2000RT (9PX2000RT) Online Double-Conversion Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 900W / 41 min @ 450W), 0.90 Power Factor watts (1800W), and 4x 12V 9Ah (48V Online) replacement battery specs for Eaton 9PX 2000RT (9PX2000RT) Online Double-Conversion.",
+    "va": 2000,
+    "watts": 1800,
+    "min_50": 18,
+    "date": "2026-11-02"
   }
 ]
