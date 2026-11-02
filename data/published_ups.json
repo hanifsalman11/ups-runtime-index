@@ -88,5 +88,35 @@
     "watts": 900,
     "min_50": 18,
     "date": "2026-11-02"
+  },
+  {
+    "ups_name": "CyberPower CP1000PFCLCD PFC Sinewave 1000VA/600W",
+    "slug": "cyberpower-cp1000pfclcd-pfc-sinewave-1000va600w-runtime-watt-calculator",
+    "title": "CyberPower CP1000PFCLCD PFC Sinewave 1000VA/600W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (21 min @ 300W / 47 min @ 150W), 0.60 Power Factor watts (600W), and 1x 12V 9Ah / 2x 12V 7Ah replacement battery specs for CyberPower CP1000PFCLCD PFC Sinewave 1000VA/600W.",
+    "va": 1000,
+    "watts": 600,
+    "min_50": 21,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "CyberPower CP1350PFCLCD PFC Sinewave 1350VA/810W",
+    "slug": "cyberpower-cp1350pfclcd-pfc-sinewave-1350va810w-runtime-watt-calculator",
+    "title": "CyberPower CP1350PFCLCD PFC Sinewave 1350VA/810W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 400W / 36 min @ 200W), 0.60 Power Factor watts (810W), and 2x 12V 7Ah (24V Series) replacement battery specs for CyberPower CP1350PFCLCD PFC Sinewave 1350VA/810W.",
+    "va": 1350,
+    "watts": 810,
+    "min_50": 16,
+    "date": "2026-11-02"
+  },
+  {
+    "ups_name": "APC Back-UPS Pro BR1500MS2 Pure Sine Wave 1500VA/900W",
+    "slug": "apc-back-ups-pro-br1500ms2-pure-sine-wave-1500va900w-runtime-watt-calculator",
+    "title": "APC Back-UPS Pro BR1500MS2 Pure Sine Wave 1500VA/900W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah (APCRBC163) replacement battery specs for APC Back-UPS Pro BR1500MS2 Pure Sine Wave 1500VA/900W.",
+    "va": 1500,
+    "watts": 900,
+    "min_50": 18,
+    "date": "2026-11-02"
   }
 ]
