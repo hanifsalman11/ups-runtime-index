@@ -148,5 +148,35 @@
     "watts": 900,
     "min_50": 18,
     "date": "2026-11-03"
+  },
+  {
+    "ups_name": "Tripp Lite SMART2200RM2U 2200VA/1920W 2U Rack UPS",
+    "slug": "tripp-lite-smart2200rm2u-2200va1920w-2u-rack-ups-runtime-watt-calculator",
+    "title": "Tripp Lite SMART2200RM2U 2200VA/1920W 2U Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (17 min @ 960W / 38 min @ 480W), 0.87 Power Factor watts (1920W), and 4x 12V 9Ah (RBC94-2U) replacement battery specs for Tripp Lite SMART2200RM2U 2200VA/1920W 2U Rack UPS.",
+    "va": 2200,
+    "watts": 1920,
+    "min_50": 17,
+    "date": "2026-11-03"
+  },
+  {
+    "ups_name": "Vertiv Liebert PSI5-1500RT120 1500VA/1350W 2U",
+    "slug": "vertiv-liebert-psi5-1500rt120-1500va1350w-2u-runtime-watt-calculator",
+    "title": "Vertiv Liebert PSI5-1500RT120 1500VA/1350W 2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah Hot-Swap replacement battery specs for Vertiv Liebert PSI5-1500RT120 1500VA/1350W 2U.",
+    "va": 1500,
+    "watts": 1350,
+    "min_50": 24,
+    "date": "2026-11-03"
+  },
+  {
+    "ups_name": "Vertiv Liebert GXT5-2000LVRT2UXL 2000VA/1800W Online",
+    "slug": "vertiv-liebert-gxt5-2000lvrt2uxl-2000va1800w-online-runtime-watt-calculator",
+    "title": "Vertiv Liebert GXT5-2000LVRT2UXL 2000VA/1800W Online Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (18 min @ 900W / 41 min @ 450W), 0.90 Power Factor watts (1800W), and 4x 12V 9Ah Online Bus replacement battery specs for Vertiv Liebert GXT5-2000LVRT2UXL 2000VA/1800W Online.",
+    "va": 2000,
+    "watts": 1800,
+    "min_50": 18,
+    "date": "2026-11-03"
   }
 ]
