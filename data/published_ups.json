@@ -178,5 +178,35 @@
     "watts": 1800,
     "min_50": 18,
     "date": "2026-11-03"
+  },
+  {
+    "ups_name": "GoldenMate 1000VA/800W LiFePO4 Lithium UPS Backup",
+    "slug": "goldenmate-1000va800w-lifepo4-lithium-ups-backup-runtime-watt-calculator",
+    "title": "GoldenMate 1000VA/800W LiFePO4 Lithium UPS Backup Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (21 min @ 400W / 49 min @ 200W), 0.80 Power Factor watts (800W), and 25.6V 9Ah LiFePO4 Pack replacement battery specs for GoldenMate 1000VA/800W LiFePO4 Lithium UPS Backup.",
+    "va": 1000,
+    "watts": 800,
+    "min_50": 21,
+    "date": "2026-11-03"
+  },
+  {
+    "ups_name": "Ecoflow River 3 Plus / Delta 3 <10ms UPS Workstation",
+    "slug": "ecoflow-river-3-plus-delta-3-10ms-ups-workstation-runtime-watt-calculator",
+    "title": "Ecoflow River 3 Plus / Delta 3 <10ms UPS Workstation Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (42 min @ 900W / 96 min @ 450W), 1.00 Power Factor watts (1800W), and 1024Wh LFP Battery Bank replacement battery specs for Ecoflow River 3 Plus / Delta 3 <10ms UPS Workstation.",
+    "va": 1800,
+    "watts": 1800,
+    "min_50": 42,
+    "date": "2026-11-03"
+  },
+  {
+    "ups_name": "850W RTX 4080/4090 Gaming PC + Dual 4K Monitor UPS",
+    "slug": "850w-rtx-40804090-gaming-pc-dual-4k-monitor-ups-runtime-watt-calculator",
+    "title": "850W RTX 4080/4090 Gaming PC + Dual 4K Monitor UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1000W), and 2x 12V 9Ah (216 VAh) replacement battery specs for 850W RTX 4080/4090 Gaming PC + Dual 4K Monitor UPS.",
+    "va": 1500,
+    "watts": 1000,
+    "min_50": 16,
+    "date": "2026-11-03"
   }
 ]
