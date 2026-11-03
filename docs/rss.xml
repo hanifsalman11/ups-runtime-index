@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Tripp Lite SMART1500LCDXL 1500VA/900W Rack/Tower Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart1500lcdxl-1500va900w-racktower-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart1500lcdxl-1500va900w-racktower-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah + EBM Port replacement battery specs for Tripp Lite SMART1500LCDXL 1500VA/900W Rack/Tower.</description>
+    </item>
+    <item>
+      <title>APC Smart-UPS Ultra 3000VA SRTL3KRM1UWNC Lithium-Ion Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-ultra-3000va-srtl3krm1uwnc-lithium-ion-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-ultra-3000va-srtl3krm1uwnc-lithium-ion-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (15 min @ 1500W / 34 min @ 750W), 1.00 Power Factor watts (3000W), and 48V LiFePO4 / Li-Ion Pack replacement battery specs for APC Smart-UPS Ultra 3000VA SRTL3KRM1UWNC Lithium-Ion.</description>
+    </item>
+    <item>
+      <title>APC Smart-UPS 1000VA SMT1000C / SMT1000RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1000va-smt1000c-smt1000rm2u-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1000va-smt1000c-smt1000rm2u-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (31 min @ 350W / 68 min @ 180W), 0.70 Power Factor watts (700W), and 2x 12V 12Ah (RBC6) replacement battery specs for APC Smart-UPS 1000VA SMT1000C / SMT1000RM2U.</description>
+    </item>
+    <item>
       <title>APC Back-UPS Pro BR1500MS2 Pure Sine Wave 1500VA/900W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/apc-back-ups-pro-br1500ms2-pure-sine-wave-1500va900w-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-back-ups-pro-br1500ms2-pure-sine-wave-1500va900w-runtime-watt-calculator.html</guid>

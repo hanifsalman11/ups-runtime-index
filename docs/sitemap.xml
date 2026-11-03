@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,6 +75,24 @@
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/apc-back-ups-pro-br1500ms2-pure-sine-wave-1500va900w-runtime-watt-calculator.html</loc>
     <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1000va-smt1000c-smt1000rm2u-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-ultra-3000va-srtl3krm1uwnc-lithium-ion-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart1500lcdxl-1500va900w-racktower-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
