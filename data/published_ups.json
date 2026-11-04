@@ -238,5 +238,35 @@
     "watts": 1350,
     "min_50": 24,
     "date": "2026-11-04"
+  },
+  {
+    "ups_name": "Starlink Gen 3 Dish + Wi-Fi 7 Router 8-Hour Outage UPS",
+    "slug": "starlink-gen-3-dish-wi-fi-7-router-8-hour-outage-ups-runtime-watt-calculator",
+    "title": "Starlink Gen 3 Dish + Wi-Fi 7 Router 8-Hour Outage UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (36 min @ 450W / 83 min @ 220W), 0.60 Power Factor watts (900W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Starlink Gen 3 Dish + Wi-Fi 7 Router 8-Hour Outage UPS.",
+    "va": 1500,
+    "watts": 900,
+    "min_50": 36,
+    "date": "2026-11-04"
+  },
+  {
+    "ups_name": "CPAP / BiPAP Heated Humidifier Overnight Battery UPS",
+    "slug": "cpap-bipap-heated-humidifier-overnight-battery-ups-runtime-watt-calculator",
+    "title": "CPAP / BiPAP Heated Humidifier Overnight Battery UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (36 min @ 300W / 81 min @ 150W), 0.60 Power Factor watts (600W), and 2x 12V 12Ah (288 VAh) replacement battery specs for CPAP / BiPAP Heated Humidifier Overnight Battery UPS.",
+    "va": 1000,
+    "watts": 600,
+    "min_50": 36,
+    "date": "2026-11-04"
+  },
+  {
+    "ups_name": "Ubiquiti UniFi Dream Machine Pro + 24-Port PoE Switch UPS",
+    "slug": "ubiquiti-unifi-dream-machine-pro-24-port-poe-switch-ups-runtime-watt-calculator",
+    "title": "Ubiquiti UniFi Dream Machine Pro + 24-Port PoE Switch UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Ubiquiti UniFi Dream Machine Pro + 24-Port PoE Switch UPS.",
+    "va": 1500,
+    "watts": 1000,
+    "min_50": 32,
+    "date": "2026-11-04"
   }
 ]
