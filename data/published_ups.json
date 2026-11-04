@@ -208,5 +208,35 @@
     "watts": 1000,
     "min_50": 16,
     "date": "2026-11-03"
+  },
+  {
+    "ups_name": "1000W RTX 5090 Workstation + OLED Monitor UPS Sizing",
+    "slug": "1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator",
+    "title": "1000W RTX 5090 Workstation + OLED Monitor UPS Sizing Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 990W / 37 min @ 500W), 0.90 Power Factor watts (1980W), and 4x 12V 9Ah (432 VAh) replacement battery specs for 1000W RTX 5090 Workstation + OLED Monitor UPS Sizing.",
+    "va": 2200,
+    "watts": 1980,
+    "min_50": 16,
+    "date": "2026-11-04"
+  },
+  {
+    "ups_name": "Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS",
+    "slug": "synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator",
+    "title": "Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (27 min @ 300W / 61 min @ 150W), 0.60 Power Factor watts (600W), and 2x 12V 9Ah (216 VAh) replacement battery specs for Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS.",
+    "va": 1000,
+    "watts": 600,
+    "min_50": 27,
+    "date": "2026-11-04"
+  },
+  {
+    "ups_name": "Proxmox / Unraid 12-Bay HomeLab Server Rack UPS",
+    "slug": "proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator",
+    "title": "Proxmox / Unraid 12-Bay HomeLab Server Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Proxmox / Unraid 12-Bay HomeLab Server Rack UPS.",
+    "va": 1500,
+    "watts": 1350,
+    "min_50": 24,
+    "date": "2026-11-04"
   }
 ]

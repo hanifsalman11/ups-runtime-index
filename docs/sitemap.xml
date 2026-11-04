@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,6 +129,24 @@
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/850w-rtx-40804090-gaming-pc-dual-4k-monitor-ups-runtime-watt-calculator.html</loc>
     <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

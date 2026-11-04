@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Proxmox / Unraid 12-Bay HomeLab Server Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Proxmox / Unraid 12-Bay HomeLab Server Rack UPS.</description>
+    </item>
+    <item>
+      <title>Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (27 min @ 300W / 61 min @ 150W), 0.60 Power Factor watts (600W), and 2x 12V 9Ah (216 VAh) replacement battery specs for Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS.</description>
+    </item>
+    <item>
+      <title>1000W RTX 5090 Workstation + OLED Monitor UPS Sizing Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 990W / 37 min @ 500W), 0.90 Power Factor watts (1980W), and 4x 12V 9Ah (432 VAh) replacement battery specs for 1000W RTX 5090 Workstation + OLED Monitor UPS Sizing.</description>
+    </item>
+    <item>
       <title>850W RTX 4080/4090 Gaming PC + Dual 4K Monitor UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/850w-rtx-40804090-gaming-pc-dual-4k-monitor-ups-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/850w-rtx-40804090-gaming-pc-dual-4k-monitor-ups-runtime-watt-calculator.html</guid>
