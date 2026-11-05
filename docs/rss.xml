@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Starlink Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/starlink-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/starlink-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Starlink.</description>
+    </item>
+    <item>
+      <title>Modem And Router Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/modem-and-router-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/modem-and-router-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Modem And Router.</description>
+    </item>
+    <item>
+      <title>Gaming Pc Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/gaming-pc-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/gaming-pc-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Gaming Pc.</description>
+    </item>
+    <item>
       <title>NEMA 5-15P (15A) vs NEMA 5-20P (20A) UPS Circuit Sizing Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/nema-5-15p-15a-vs-nema-5-20p-20a-ups-circuit-sizing-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/nema-5-15p-15a-vs-nema-5-20p-20a-ups-circuit-sizing-runtime-watt-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-pr1500lcd-pr1500rt2u-smart-app-sinewave-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (21 min @ 750W / 48 min @ 380W), 1.00 Power Factor watts (1500W), and 4x 12V 9Ah (48V Bus) replacement battery specs for CyberPower PR1500LCD / PR1500RT2U Smart App Sinewave.</description>
-    </item>
-    <item>
-      <title>APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500va-smt1500c-smt1500rm2u-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 7Ah / 2x 12V 18Ah replacement battery specs for APC Smart-UPS 1500VA SMT1500C / SMT1500RM2U.</description>
-    </item>
-    <item>
-      <title>APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-back-ups-pro-bx1500m-1500va900w-compact-tower-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-back-ups-pro-bx1500m-1500va900w-compact-tower-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah (RBC175) replacement battery specs for APC Back-UPS Pro BX1500M 1500VA/900W Compact Tower.</description>
-    </item>
-    <item>
-      <title>CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-cp1500pfclcd-pfc-sinewave-1500va1000w-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-cp1500pfclcd-pfc-sinewave-1500va1000w-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1000W), and 2x 12V 9Ah (24V Series) replacement battery specs for CyberPower CP1500PFCLCD PFC Sinewave 1500VA/1000W.</description>
     </item>
   </channel>
 </rss>

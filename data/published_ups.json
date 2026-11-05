@@ -298,5 +298,35 @@
     "watts": 1920,
     "min_50": 17,
     "date": "2026-11-05"
+  },
+  {
+    "ups_name": "Gaming Pc",
+    "slug": "gaming-pc-runtime-watt-calculator",
+    "title": "Gaming Pc Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Gaming Pc.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-05"
+  },
+  {
+    "ups_name": "Modem And Router",
+    "slug": "modem-and-router-runtime-watt-calculator",
+    "title": "Modem And Router Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Modem And Router.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-05"
+  },
+  {
+    "ups_name": "Starlink",
+    "slug": "starlink-runtime-watt-calculator",
+    "title": "Starlink Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Starlink.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-05"
   }
 ]
