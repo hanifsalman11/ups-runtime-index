@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,6 +165,24 @@
   <url>
     <loc>https://hanifsalman11.github.io/ups-runtime-index/ubiquiti-unifi-dream-machine-pro-24-port-poe-switch-ups-runtime-watt-calculator.html</loc>
     <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/3d-printer-farm-bambu-lab-x1c-prusa-print-save-ups-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/reef-aquarium-return-pump-heater-wavemaker-ups-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hanifsalman11.github.io/ups-runtime-index/nema-5-15p-15a-vs-nema-5-20p-20a-ups-circuit-sizing-runtime-watt-calculator.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

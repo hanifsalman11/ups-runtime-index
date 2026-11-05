@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>NEMA 5-15P (15A) vs NEMA 5-20P (20A) UPS Circuit Sizing Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/nema-5-15p-15a-vs-nema-5-20p-20a-ups-circuit-sizing-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/nema-5-15p-15a-vs-nema-5-20p-20a-ups-circuit-sizing-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (17 min @ 960W / 38 min @ 480W), 0.87 Power Factor watts (1920W), and 4x 12V 9Ah (432 VAh) replacement battery specs for NEMA 5-15P (15A) vs NEMA 5-20P (20A) UPS Circuit Sizing.</description>
+    </item>
+    <item>
+      <title>Reef Aquarium Return Pump, Heater & Wavemaker UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/reef-aquarium-return-pump-heater-wavemaker-ups-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/reef-aquarium-return-pump-heater-wavemaker-ups-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Reef Aquarium Return Pump, Heater & Wavemaker UPS.</description>
+    </item>
+    <item>
+      <title>3D Printer Farm (Bambu Lab X1C / Prusa) Print-Save UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/3d-printer-farm-bambu-lab-x1c-prusa-print-save-ups-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/3d-printer-farm-bambu-lab-x1c-prusa-print-save-ups-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (32 min @ 500W / 73 min @ 250W), 0.67 Power Factor watts (1000W), and 4x 12V 9Ah (432 VAh) replacement battery specs for 3D Printer Farm (Bambu Lab X1C / Prusa) Print-Save UPS.</description>
+    </item>
+    <item>
       <title>Ubiquiti UniFi Dream Machine Pro + 24-Port PoE Switch UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/ubiquiti-unifi-dream-machine-pro-24-port-poe-switch-ups-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/ubiquiti-unifi-dream-machine-pro-24-port-poe-switch-ups-runtime-watt-calculator.html</guid>
