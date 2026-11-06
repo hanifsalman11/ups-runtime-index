@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>What  Up From 8X10 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-8x10-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-8x10-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From 8X10.</description>
+    </item>
+    <item>
+      <title>What  Up From 3 8 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-3-8-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-3-8-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From 3 8.</description>
+    </item>
+    <item>
+      <title>What  Up From A4 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a4-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a4-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From A4.</description>
+    </item>
+    <item>
       <title>Security Camera System Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-cp1000pfclcd-pfc-sinewave-1000va600w-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-cp1000pfclcd-pfc-sinewave-1000va600w-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (21 min @ 300W / 47 min @ 150W), 0.60 Power Factor watts (600W), and 1x 12V 9Ah / 2x 12V 7Ah replacement battery specs for CyberPower CP1000PFCLCD PFC Sinewave 1000VA/600W.</description>
-    </item>
-    <item>
-      <title>CyberPower OR1500LCDRM1U 1500VA/900W 1U Rackmount Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-or1500lcdrm1u-1500va900w-1u-rackmount-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-or1500lcdrm1u-1500va900w-1u-rackmount-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 4x 6V 9Ah Slim Pack replacement battery specs for CyberPower OR1500LCDRM1U 1500VA/900W 1U Rackmount.</description>
-    </item>
-    <item>
-      <title>APC Smart-UPS 3000VA SMT3000RM2U (NEMA L5-30P) Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-3000va-smt3000rm2u-nema-l5-30p-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-3000va-smt3000rm2u-nema-l5-30p-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (15 min @ 1350W / 33 min @ 680W), 0.90 Power Factor watts (2700W), and 8x 12V 5.5Ah (RBC43) replacement battery specs for APC Smart-UPS 3000VA SMT3000RM2U (NEMA L5-30P).</description>
-    </item>
-    <item>
-      <title>APC Smart-UPS 2200VA SMT2200C / SMT2200RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-2200va-smt2200c-smt2200rm2u-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-2200va-smt2200c-smt2200rm2u-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (18 min @ 990W / 41 min @ 500W), 0.90 Power Factor watts (1980W), and 8x 12V 5Ah (RBC43/55) replacement battery specs for APC Smart-UPS 2200VA SMT2200C / SMT2200RM2U.</description>
     </item>
   </channel>
 </rss>

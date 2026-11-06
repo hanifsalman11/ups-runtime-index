@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What  Up From 3 8 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+  <meta name="description" content="Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From 3 8.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/ups-runtime-index/what-up-from-3-8-runtime-watt-calculator.html">
+  <meta property="og:title" content="What  Up From 3 8 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)">
+  <meta property="og:description" content="Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From 3 8.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/ups-runtime-index/what-up-from-3-8-runtime-watt-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "What  Up From 3 8 Runtime & VA-to-Watts Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long will the What  Up From 3 8 run my PC, NAS, or network rack?", "acceptedAnswer": {"@type": "Answer", "text": "With 216 VAh of battery capacity (2x 12V 9Ah SLA/LiFePO4), runtime scales non-linearly by Peukert's Law: ~7 minutes at 100% load (1010W), ~16 minutes at 50% load (500W), ~37 minutes at 25% load (250W), and over 144 minutes for a 65W Starlink + Wi-Fi router load."}}, {"@type": "Question", "name": "Why is 1,500 VA only rated for 1,010 Watts on the What  Up From 3 8?", "acceptedAnswer": {"@type": "Answer", "text": "VA (Volt-Amps) measures Apparent Power, while Watts measures Real Power. The ratio between them is the Power Factor ($\text{PF} = 1010 \\div 1500 = 0.67$). You must never exceed EITHER the 1,500 VA ceiling or the 1,010 Watt ceiling."}}, {"@type": "Question", "name": "What replacement battery does the What  Up From 3 8 take?", "acceptedAnswer": {"@type": "Answer", "text": "It uses 2x 12V 9Ah SLA/LiFePO4 high-rate discharge Sealed Lead-Acid (SLA) batteries with 0.250-inch (F2) quick-disconnect spade terminals (totaling 216 VAh). You can replace them every 3\u20134 years in under 10 minutes using your existing wiring harness."}}]}]}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-indigo-500 text-white px-2 py-0.5 rounded font-black">UPS</span>RuntimeIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Pure%2BSine%2BWave%2BUPS%2BBattery%2BBackup%2B1500VA%2BAPC%2BCyberPower%2BEaton&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop Pure Sine Wave UPS Systems on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-indigo-500 text-white px-3 py-1 rounded-full">1,500 VA / 1,010W (0.67 PF)</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">Battery: 2x 12V 9Ah SLA/LiFePO4 (216 VAh)</span>
+        <span class="text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full">50% Load: ~16 Min | NEMA 5-15P (15A 120V)</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">What  Up From 3 8 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</h1>
+      <div class="mt-4 bg-slate-900 border-l-4 border-indigo-500 p-4 rounded-r-xl text-sm text-slate-200 leading-relaxed">
+        <strong>Critical Power & Peukert Runtime Verdict:</strong> Rated at 1,500 VA and 1,010 True Watts (0.67 Power Factor, Line-Interactive Pure Sine), the What  Up From 3 8 houses a 216 VAh internal battery array (2x 12V 9Ah SLA/LiFePO4). Due to Peukert's Law discharge curves on high-rate UPS cells, it provides ~7 minutes at full 1,010W load, ~16 minutes at 50% load (500W), and ~37 minutes at 25% load (250W). For rock-solid stability without nuisance overload alarms, keep continuous load at or below 810W (80% ceiling).
+      </div>
+    </div>
+
+    <!-- INTERACTIVE UPS RUNTIME, VA-TO-WATTS & BATTERY CAPACITY CALCULATOR -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive What  Up From 3 8 Runtime & VA Sizing Calculator</h2>
+      <p class="text-xs text-slate-400 mb-6">Adjust your active equipment load (Watts), internal battery pack configuration (VAh), and battery chemistry (SLA vs. LiFePO4) to compute exact outage runtime in minutes and required UPS VA rating.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="loadSlider" class="text-slate-300">Active Equipment Power Draw (Watts)</label>
+              <span class="text-indigo-400 font-bold"><span id="loadVal">505</span> Watts</span>
+            </div>
+            <input id="loadSlider" type="range" min="40" max="2400" step="20" value="505" class="w-full accent-indigo-500 cursor-pointer">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="vahSelect" class="block text-xs font-medium text-slate-400 mb-1">Internal Battery Bank (VAh)</label>
+              <select id="vahSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500">
+                <option value="108" >1x 12V 9Ah (108 VAh — 850VA)</option>
+                <option value="216" selected>2x 12V 9Ah (216 VAh — 1500VA)</option>
+                <option value="432" >4x 12V 9Ah (432 VAh — 2U/Pro)</option>
+                <option value="648" >6x 12V 9Ah (648 VAh — Extended)</option>
+              </select>
+            </div>
+            <div>
+              <label for="chemSelect" class="block text-xs font-medium text-slate-400 mb-1">Battery Cell Chemistry</label>
+              <select id="chemSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-indigo-500">
+                <option value="sla" selected>Standard Lead-Acid (VRLA AGM)</option>
+                <option value="lfp">Drop-In LiFePO4 Upgrade (+35% Run)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="pfSlider" class="text-slate-300">Target UPS Power Factor (Standard = 0.67, Enterprise = 0.90)</label>
+              <span class="text-indigo-400 font-bold"><span id="pfVal">0.67</span> PF</span>
+            </div>
+            <input id="pfSlider" type="range" min="0.60" max="1.00" step="0.05" value="0.67" class="w-full accent-indigo-500 cursor-pointer">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950 border border-indigo-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-indigo-400 font-bold">Estimated Backup Time</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="minOut">16</span> <span class="text-sm font-normal text-slate-400">min</span></div>
+            <p id="peukertNoteOut" class="text-xs text-indigo-400 font-semibold mt-1">Includes Peukert Discharge Curve</p>
+          </div>
+
+          <div class="bg-slate-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">Min UPS Rating (w/ 25% Buffer)</span>
+            <div id="vaReqOut" class="text-xl sm:text-2xl font-black text-emerald-400 mt-1">1,500 VA</div>
+            <p id="wattCeilOut" class="text-xs text-slate-300 font-semibold mt-1">Min True Watts: 625W+</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-indigo-950/40 border border-indigo-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="upsAdviceBanner" class="text-sm text-indigo-100 font-medium"></div>
+        <a id="dynamicUpsBtn" href="https://www.amazon.com/s?k=Pure%2BSine%2BWave%2BUPS%2BBattery%2BBackup%2B1500VA%2BAPC%2BCyberPower%2BEaton&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched Pure Sine UPS on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Complete What  Up From 3 8 Battery, PDU & LiFePO4 Upgrade Kit</h2>
+        <span class="text-xs text-slate-400">UL-1778 & Active-PFC Pure Sine Rated</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-indigo-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2.5 py-0.5 rounded">1500VA / 1010W UPS</span>
+              <span class="text-sm font-bold text-emerald-400">$219 - $1,299</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">What  Up From 3 8 (Line-Interactive Pure Sine Battery Backup)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Delivers 1,010W Active-PFC compatible pure sine wave output with Automatic Voltage Regulation (AVR).</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=What++Up+From+3+8+Pure+Sine+Wave+UPS&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-indigo-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2.5 py-0.5 rounded">216 VAh RBC Battery Kit</span>
+              <span class="text-sm font-bold text-emerald-400">$49 - $179</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">High-Rate Replacement UPS Battery Cartridge (2x 12V 9Ah SLA/LiFePO4 — F2 0.250" Faston Terminals)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Factory VRLA AGM cells degrade after 3–4 years; swapping fresh high-rate F2-terminal batteries restores 100% factory runtime.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=12V+9Ah+F2+Terminal+UPS+Replacement+Battery+Pack+RBC+2x&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-indigo-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2.5 py-0.5 rounded">1U Rack PDU & Surge</span>
+              <span class="text-sm font-bold text-emerald-400">$59 - $199</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">1U Rackmount Metered Power Distribution Unit (PDU) + Network RJ45/Coax Surge Suppressor</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Expands NEMA 5-15P (15A 120V) UPS battery-backed outlets across your server rack or workstation desk.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=1U+Rackmount+Metered+PDU+Power+Strip+Surge+Protector+UPS&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-indigo-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2.5 py-0.5 rounded">LiFePO4 Drop-In Upgrade</span>
+              <span class="text-sm font-bold text-emerald-400">$69 - $189</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">12V 9Ah / 10Ah High-Rate LiFePO4 UPS Replacement Batteries (30A BMS, 3,000+ Cycles)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Eliminates Peukert capacity sag—doubling usable runtime at 50%+ loads and lasting 8–10 years vs. 3 years for lead-acid.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=12V+9Ah+10Ah+LiFePO4+F2+Terminal+Battery+UPS+Replacement&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- LOAD WATTAGE & RUNTIME MATRIX TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">What  Up From 3 8 Runtime Chart by Equipment Wattage (216 VAh Bank)</h2>
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950/60 text-slate-400 uppercase text-xs">
+              <th class="py-3.5 px-4">Connected IT / Gaming Load</th>
+              <th class="py-3.5 px-4">Apparent Power (VA)</th>
+              <th class="py-3.5 px-4 text-indigo-400">Standard SLA Runtime</th>
+              <th class="py-3.5 px-4 text-emerald-400">SLA vs. LiFePO4 Comparison</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">65W (Starlink Dish + Wi-Fi 7 Router)</td>
+          <td class="py-3 px-4 text-slate-300">97 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">144 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">144 min SLA / 165 min LiFePO4</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">160W (4-Bay Synology NAS + PoE Switch)</td>
+          <td class="py-3 px-4 text-slate-300">239 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">59 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">59 min SLA / 67 min LiFePO4</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">320W (HomeLab Server + Firewall + NAS)</td>
+          <td class="py-3 px-4 text-slate-300">478 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">26 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">26 min SLA / 34 min LiFePO4</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">500W (Mid-Range Gaming PC + Monitor)</td>
+          <td class="py-3 px-4 text-slate-300">746 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">16 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">16 min SLA / 21 min LiFePO4</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">750W (RTX 4080/4090 Gaming Rig Full Load)</td>
+          <td class="py-3 px-4 text-slate-300">1119 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">10 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">10 min SLA / 14 min LiFePO4</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">950W (Workstation / Dual-Server Rack)</td>
+          <td class="py-3 px-4 text-slate-300">1418 VA Required</td>
+          <td class="py-3 px-4 font-bold text-indigo-400">8 Minutes (SLA)</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">8 min SLA / 11 min LiFePO4</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- IT CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Data Center & HomeLab Active-PFC & Auto-Shutdown Checklist</h2>
+        <span id="upsBadge" class="text-xs font-bold bg-slate-800 text-indigo-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-indigo-500 rounded cursor-pointer ups-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>IT Power Step 1:</strong> Always choose a Pure Sine Wave UPS (Line-Interactive Pure Sine) for modern Gaming PCs and Servers equipped with Active PFC (Power Factor Corrected) power supplies; cheap 'Simulated/Stepped Sine Wave' units cause Active PFC PSUs to buzz and abruptly shut off during transfer.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-indigo-500 rounded cursor-pointer ups-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>IT Power Step 2:</strong> Size your UPS by True Watts (1,010W) as well as VA (1,500VA), and keep continuous draw below 810W (80% of rated capacity) so GPU transient spikes never trigger an overload fault.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-indigo-500 rounded cursor-pointer ups-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>IT Power Step 3:</strong> Never plug a Laser Printer, Space Heater, or Paper Shredder into the 'Battery + Surge' outlets; a laser printer fuser roller draws 1,200W–1,500W instantaneously and will trip the UPS inverter.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-indigo-500 rounded cursor-pointer ups-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>IT Power Step 4:</strong> Connect the UPS USB-HID or SNMP management port to your NAS (Synology/Unraid) or PC so the operating system executes a clean, automated disk-cache flush and shutdown when 5 minutes of battery remain.</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (What  Up From 3 8)</h2>
+      <div class="space-y-4"><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How long will the What  Up From 3 8 run my PC, NAS, or network rack?</h3><p class='text-sm text-slate-300 leading-relaxed'>With 216 VAh of battery capacity (2x 12V 9Ah SLA/LiFePO4), runtime scales non-linearly by Peukert's Law: ~7 minutes at 100% load (1010W), ~16 minutes at 50% load (500W), ~37 minutes at 25% load (250W), and over 144 minutes for a 65W Starlink + Wi-Fi router load.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Why is 1,500 VA only rated for 1,010 Watts on the What  Up From 3 8?</h3><p class='text-sm text-slate-300 leading-relaxed'>VA (Volt-Amps) measures Apparent Power, while Watts measures Real Power. The ratio between them is the Power Factor ($	ext{PF} = 1010 \div 1500 = 0.67$). You must never exceed EITHER the 1,500 VA ceiling or the 1,010 Watt ceiling.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What replacement battery does the What  Up From 3 8 take?</h3><p class='text-sm text-slate-300 leading-relaxed'>It uses 2x 12V 9Ah SLA/LiFePO4 high-rate discharge Sealed Lead-Acid (SLA) batteries with 0.250-inch (F2) quick-disconnect spade terminals (totaling 216 VAh). You can replace them every 3–4 years in under 10 minutes using your existing wiring harness.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 UPSRuntimeIndex. Independent Critical Power & Peukert Battery Engineering Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const loadSlider = document.getElementById('loadSlider');
+    const vahSelect = document.getElementById('vahSelect');
+    const chemSelect = document.getElementById('chemSelect');
+    const pfSlider = document.getElementById('pfSlider');
+    const loadVal = document.getElementById('loadVal');
+    const pfVal = document.getElementById('pfVal');
+    const minOut = document.getElementById('minOut');
+    const peukertNoteOut = document.getElementById('peukertNoteOut');
+    const vaReqOut = document.getElementById('vaReqOut');
+    const wattCeilOut = document.getElementById('wattCeilOut');
+    const upsAdviceBanner = document.getElementById('upsAdviceBanner');
+    const dynamicUpsBtn = document.getElementById('dynamicUpsBtn');
+
+    function recalculateUps() {
+      const watts = parseInt(loadSlider.value, 10);
+      const vah = parseInt(vahSelect.value, 10);
+      const chem = chemSelect.value;
+      const pf = parseFloat(pfSlider.value);
+
+      loadVal.textContent = watts.toLocaleString();
+      pfVal.textContent = pf.toFixed(2);
+
+      let peukertFactor = 0.72;
+      if (chem === 'lfp') {
+        peukertFactor = 0.92;
+      } else {
+        const cRate = watts / vah;
+        if (cRate <= 1.0) peukertFactor = 0.84;
+        else if (cRate <= 2.5) peukertFactor = 0.72;
+        else peukertFactor = 0.60;
+      }
+
+      const invEff = 0.86;
+      const runtimeMins = Math.max(2, Math.round(((vah * invEff * peukertFactor) / watts) * 60.0));
+
+      const minSafeWatts = Math.round(watts * 1.25);
+      const rawVaNeeded = minSafeWatts / pf;
+      let stdVaTier = 1000;
+      if (rawVaNeeded <= 1000) stdVaTier = 1000;
+      else if (rawVaNeeded <= 1350) stdVaTier = 1350;
+      else if (rawVaNeeded <= 1500) stdVaTier = 1500;
+      else if (rawVaNeeded <= 2200) stdVaTier = 2200;
+      else stdVaTier = 3000;
+
+      minOut.textContent = runtimeMins;
+      peukertNoteOut.textContent = chem === 'lfp' ? "LiFePO4 Flat Discharge Curve" : `SLA Peukert Efficiency: ${Math.round(peukertFactor * 100)}%`;
+      vaReqOut.textContent = `${stdVaTier.toLocaleString()} VA`;
+      wattCeilOut.textContent = `Min True Watts: ${minSafeWatts.toLocaleString()}W+`;
+
+      upsAdviceBanner.innerHTML = `⚡ <strong>Active-PFC Sizing Spec:</strong> A <strong>${watts.toLocaleString()}W load</strong> requires at least a <strong>${stdVaTier.toLocaleString()} VA / ${minSafeWatts.toLocaleString()}W Pure Sine Wave UPS</strong> (providing <strong>~${runtimeMins} minutes</strong> of backup runtime on a ${vah} VAh battery bank).`;
+      dynamicUpsBtn.href = `https://${amzDomain}/s?k=${stdVaTier}VA+Pure+Sine+Wave+UPS+Battery+Backup+APC+CyberPower&tag=${amzTag}`;
+    }
+
+    loadSlider.addEventListener('input', recalculateUps);
+    vahSelect.addEventListener('change', recalculateUps);
+    chemSelect.addEventListener('change', recalculateUps);
+    pfSlider.addEventListener('input', recalculateUps);
+    recalculateUps();
+
+    const checks = document.querySelectorAll('.ups-check');
+    const badge = document.getElementById('upsBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>
