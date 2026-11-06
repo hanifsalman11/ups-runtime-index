@@ -328,5 +328,35 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-05"
+  },
+  {
+    "ups_name": "Wifi Router",
+    "slug": "wifi-router-runtime-watt-calculator",
+    "title": "Wifi Router Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Wifi Router.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-06"
+  },
+  {
+    "ups_name": "Cctv System",
+    "slug": "cctv-system-runtime-watt-calculator",
+    "title": "Cctv System Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cctv System.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-06"
+  },
+  {
+    "ups_name": "Security Camera System",
+    "slug": "security-camera-system-runtime-watt-calculator",
+    "title": "Security Camera System Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Security Camera System.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-06"
   }
 ]
