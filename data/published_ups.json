@@ -448,5 +448,35 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-07"
+  },
+  {
+    "ups_name": "Cyberpower Ups Costco",
+    "slug": "cyberpower-ups-costco-runtime-watt-calculator",
+    "title": "Cyberpower Ups Costco Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Costco.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
+  },
+  {
+    "ups_name": "Cyberpower Ups Battery",
+    "slug": "cyberpower-ups-battery-runtime-watt-calculator",
+    "title": "Cyberpower Ups Battery Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact UPS battery backup runtime in minutes, VA-to-Watts Power Factor, and RBC replacement battery specs for Cyberpower Ups Battery.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
+  },
+  {
+    "ups_name": "Cyberpower Ups Rack Mount",
+    "slug": "cyberpower-ups-rack-mount-runtime-watt-calculator",
+    "title": "Cyberpower Ups Rack Mount Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Rack Mount.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
   }
 ]
