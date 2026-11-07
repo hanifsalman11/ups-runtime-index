@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Cyberpower Ups Software Windows 11 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-software-windows-11-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-software-windows-11-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Software Windows 11.</description>
+    </item>
+    <item>
+      <title>Cyberpower Ups Warranty Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-warranty-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-warranty-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Warranty.</description>
+    </item>
+    <item>
+      <title>Cyberpower Ups Beeping Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-beeping-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-beeping-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Beeping.</description>
+    </item>
+    <item>
       <title>Cyberpower Ups 1500Va Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-1500va-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-1500va-runtime-watt-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart2200rm2u-2200va1920w-2u-rack-ups-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart2200rm2u-2200va1920w-2u-rack-ups-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (17 min @ 960W / 38 min @ 480W), 0.87 Power Factor watts (1920W), and 4x 12V 9Ah (RBC94-2U) replacement battery specs for Tripp Lite SMART2200RM2U 2200VA/1920W 2U Rack UPS.</description>
-    </item>
-    <item>
-      <title>Tripp Lite SMART1500LCDXL 1500VA/900W Rack/Tower Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart1500lcdxl-1500va900w-racktower-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/tripp-lite-smart1500lcdxl-1500va900w-racktower-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (18 min @ 450W / 42 min @ 220W), 0.60 Power Factor watts (900W), and 2x 12V 9Ah + EBM Port replacement battery specs for Tripp Lite SMART1500LCDXL 1500VA/900W Rack/Tower.</description>
-    </item>
-    <item>
-      <title>APC Smart-UPS Ultra 3000VA SRTL3KRM1UWNC Lithium-Ion Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-ultra-3000va-srtl3krm1uwnc-lithium-ion-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-ultra-3000va-srtl3krm1uwnc-lithium-ion-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (15 min @ 1500W / 34 min @ 750W), 1.00 Power Factor watts (3000W), and 48V LiFePO4 / Li-Ion Pack replacement battery specs for APC Smart-UPS Ultra 3000VA SRTL3KRM1UWNC Lithium-Ion.</description>
-    </item>
-    <item>
-      <title>APC Smart-UPS 1000VA SMT1000C / SMT1000RM2U Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1000va-smt1000c-smt1000rm2u-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1000va-smt1000c-smt1000rm2u-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (31 min @ 350W / 68 min @ 180W), 0.70 Power Factor watts (700W), and 2x 12V 12Ah (RBC6) replacement battery specs for APC Smart-UPS 1000VA SMT1000C / SMT1000RM2U.</description>
     </item>
   </channel>
 </rss>
