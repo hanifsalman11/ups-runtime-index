@@ -388,5 +388,35 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-06"
+  },
+  {
+    "ups_name": "Cyberpower Ups Software",
+    "slug": "cyberpower-ups-software-runtime-watt-calculator",
+    "title": "Cyberpower Ups Software Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Software.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
+  },
+  {
+    "ups_name": "Cyberpower Ups Battery Replacement",
+    "slug": "cyberpower-ups-battery-replacement-runtime-watt-calculator",
+    "title": "Cyberpower Ups Battery Replacement Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Battery Replacement.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
+  },
+  {
+    "ups_name": "Cyberpower Ups 1500Va",
+    "slug": "cyberpower-ups-1500va-runtime-watt-calculator",
+    "title": "Cyberpower Ups 1500Va Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups 1500Va.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-07"
   }
 ]
