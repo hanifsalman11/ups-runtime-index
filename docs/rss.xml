@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Apc Smart Ups 2200 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-2200-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-2200-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 2200.</description>
+    </item>
+    <item>
+      <title>Apc Smart Ups 750 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-750-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-750-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 750.</description>
+    </item>
+    <item>
+      <title>Apc Smart Ups 1500 Battery Replacement Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500-battery-replacement-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500-battery-replacement-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 1500 Battery Replacement.</description>
+    </item>
+    <item>
       <title>Apc Smart Ups 1500 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-1500-runtime-watt-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/starlink-gen-3-dish-wi-fi-7-router-8-hour-outage-ups-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/starlink-gen-3-dish-wi-fi-7-router-8-hour-outage-ups-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (36 min @ 450W / 83 min @ 220W), 0.60 Power Factor watts (900W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Starlink Gen 3 Dish + Wi-Fi 7 Router 8-Hour Outage UPS.</description>
-    </item>
-    <item>
-      <title>Proxmox / Unraid 12-Bay HomeLab Server Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/proxmox-unraid-12-bay-homelab-server-rack-ups-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (24 min @ 680W / 54 min @ 340W), 0.90 Power Factor watts (1350W), and 4x 12V 9Ah (432 VAh) replacement battery specs for Proxmox / Unraid 12-Bay HomeLab Server Rack UPS.</description>
-    </item>
-    <item>
-      <title>Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/synology-diskstation-4-bay8-bay-nas-unifi-rack-ups-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (27 min @ 300W / 61 min @ 150W), 0.60 Power Factor watts (600W), and 2x 12V 9Ah (216 VAh) replacement battery specs for Synology DiskStation 4-Bay/8-Bay NAS + UniFi Rack UPS.</description>
-    </item>
-    <item>
-      <title>1000W RTX 5090 Workstation + OLED Monitor UPS Sizing Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/1000w-rtx-5090-workstation-oled-monitor-ups-sizing-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 990W / 37 min @ 500W), 0.90 Power Factor watts (1980W), and 4x 12V 9Ah (432 VAh) replacement battery specs for 1000W RTX 5090 Workstation + OLED Monitor UPS Sizing.</description>
     </item>
   </channel>
 </rss>

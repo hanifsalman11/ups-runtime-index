@@ -508,5 +508,35 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-08"
+  },
+  {
+    "ups_name": "Apc Smart Ups 1500 Battery Replacement",
+    "slug": "apc-smart-ups-1500-battery-replacement-runtime-watt-calculator",
+    "title": "Apc Smart Ups 1500 Battery Replacement Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 1500 Battery Replacement.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-08"
+  },
+  {
+    "ups_name": "Apc Smart Ups 750",
+    "slug": "apc-smart-ups-750-runtime-watt-calculator",
+    "title": "Apc Smart Ups 750 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 750.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-08"
+  },
+  {
+    "ups_name": "Apc Smart Ups 2200",
+    "slug": "apc-smart-ups-2200-runtime-watt-calculator",
+    "title": "Apc Smart Ups 2200 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups 2200.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-08"
   }
 ]
