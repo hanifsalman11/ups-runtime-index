@@ -598,5 +598,25 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-09"
+  },
+  {
+    "ups_name": "Cyberpower Ups Turn Off Beeping",
+    "slug": "cyberpower-ups-turn-off-beeping-runtime-watt-calculator",
+    "title": "Cyberpower Ups Turn Off Beeping Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Turn Off Beeping.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-10"
+  },
+  {
+    "ups_name": "Apc Smart Ups Battery Replacement",
+    "slug": "apc-smart-ups-battery-replacement-runtime-watt-calculator",
+    "title": "Apc Smart Ups Battery Replacement Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Apc Smart Ups Battery Replacement.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-10"
   }
 ]
