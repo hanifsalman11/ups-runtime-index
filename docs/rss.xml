@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Cyberpower Ups Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups.</description>
+    </item>
+    <item>
+      <title>What  Up From 5 8 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-5-8-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-5-8-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From 5 8.</description>
+    </item>
+    <item>
+      <title>What  Up From A3 Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a3-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a3-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From A3.</description>
+    </item>
+    <item>
       <title>Apc Smart Ups Battery Replacement Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-battery-replacement-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/apc-smart-ups-battery-replacement-runtime-watt-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Security Camera System.</description>
-    </item>
-    <item>
-      <title>Cctv System Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/cctv-system-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/cctv-system-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cctv System.</description>
-    </item>
-    <item>
-      <title>Wifi Router Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/wifi-router-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/wifi-router-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Wifi Router.</description>
-    </item>
-    <item>
-      <title>Starlink Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/starlink-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/starlink-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Starlink.</description>
     </item>
   </channel>
 </rss>
