@@ -648,5 +648,15 @@
     "watts": 1010,
     "min_50": 16,
     "date": "2026-11-26"
+  },
+  {
+    "ups_name": "Cyberpower Ups Software Download",
+    "slug": "cyberpower-ups-software-download-runtime-watt-calculator",
+    "title": "Cyberpower Ups Software Download Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)",
+    "description": "Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Software Download.",
+    "va": 1500,
+    "watts": 1010,
+    "min_50": 16,
+    "date": "2026-11-26"
   }
 ]

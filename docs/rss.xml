@@ -7,6 +7,12 @@
     <atom:link href="https://hanifsalman11.github.io/ups-runtime-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Cyberpower Ups Software Download Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-software-download-runtime-watt-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-software-download-runtime-watt-calculator.html</guid>
+      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Cyberpower Ups Software Download.</description>
+    </item>
+    <item>
       <title>Cyberpower Ups Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/cyberpower-ups-runtime-watt-calculator.html</guid>
@@ -179,12 +185,6 @@
       <link>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a4-runtime-watt-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ups-runtime-index/what-up-from-a4-runtime-watt-calculator.html</guid>
       <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for What  Up From A4.</description>
-    </item>
-    <item>
-      <title>Security Camera System Runtime (Minutes), VA-to-Watts & Battery Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ups-runtime-index/security-camera-system-runtime-watt-calculator.html</guid>
-      <description>Calculate exact backup runtime (16 min @ 500W / 37 min @ 250W), 0.67 Power Factor watts (1010W), and 2x 12V 9Ah SLA/LiFePO4 replacement battery specs for Security Camera System.</description>
     </item>
   </channel>
 </rss>
